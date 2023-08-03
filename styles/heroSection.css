@@ -1,0 +1,57 @@
+/* hero section */
+
+.hero {
+    padding: 30px 0 85px;
+}
+
+.hero__container{
+position: relative;
+}
+
+
+.hero__title {
+    font-size: 84px;
+    font-weight: 900;
+    max-width: 880px;
+    
+}
+
+.hero__cups {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-top: 270px;
+}
+
+.hero__cup {
+    position: relative;
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 24px;
+}
+
+.hero__cup_pink {
+    background-color: #FF196C;
+}
+
+.hero__cup_orange {
+    background-color: #FFB72A;
+    margin-top: -70px;
+    align-self: flex-start;
+}
+
+.hero__cup_green {
+    background-color: #34B905;
+   
+}
+
+.hero__img {
+    position: absolute;
+
+    width: 55%;
+    bottom: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}

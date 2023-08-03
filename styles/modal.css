@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    cursor: pointer;
+    overflow-y: auto;
+    padding: 20px;
+    display: none;
+    
+}
+
+.modal__main{
+    margin: auto;
+    cursor: default;
+    
+    
+}
+
+
+.modal__main_order{
+    max-width: 780px;
+}
+
+.modal__main_make{
+    max-width: 640px;
+ } 

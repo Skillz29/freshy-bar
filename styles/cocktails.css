@@ -1,0 +1,55 @@
+.cocktail {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 32px;
+    background-color:var(--background-color-cocktails);
+    padding: 12px;
+
+    height: 100%;
+}
+
+.cocktail__img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.cocktail__content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+   
+}
+
+.cocktail__text {
+    display: grid;
+   grid-template-columns: 3fr 1fr;
+    
+    gap: 2px 5px;    
+    margin-bottom: 10px;
+}
+
+.cocktail__title {
+    font-size: inherit;
+    font-weight: 600;
+    margin-right: 8px;
+    grid-row: 1/3;
+    
+    
+}
+
+.cocktail-price {
+    text-align: end;
+    font-weight: 600;
+    
+}
+
+.cocktail__size {
+    flex: 0 0 100%;
+    font-size: 12px;
+    color:#C1C1C1 ;
+    text-align: end;
+    font-weight: 600;
+  
+}

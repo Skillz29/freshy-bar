@@ -1,0 +1,38 @@
+.btn {
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+
+    width: 139px;
+    height: 44px;
+
+    padding: var(--padding-btn);
+    border-radius: 40px;
+
+    
+    background-color: var(--background-color-btn);
+    box-shadow: var(--box-shadow-btn);
+
+    font-weight: 600;
+    color:var(--text-color-btn) ;
+
+    transition:  background-color 0.4s ease-in-out,
+    color 0.4s ease-in-out;
+   
+}
+
+.btn:hover:not(:disabled){
+    background-color: #ff6767;
+    color: #F8E8E2;
+}
+
+.btn:disabled{
+    background-color: #746d6d;
+    box-shadow: none
+}
+
+.cocktail__btn {
+    width: auto;
+    margin-top: auto;
+}

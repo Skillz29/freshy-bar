@@ -1,0 +1,86 @@
+.decor{
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.decor__img{
+    position: absolute;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.decor__img_01{
+    width: 223px;
+    height: 214px;
+ 
+    background-image: url(.././images/header/decor/img1.png);
+    
+    border: none;
+    top:19% ;
+    left:-6% ;
+
+    animation: flying01 2s ease-in-out;
+}
+.decor__img_02{
+    width: 180px;
+    height: 147px;
+   
+    background-image: url(.././images/header/decor/img2.png);
+    filter: drop-shadow(0px 4px 4px  rgba(0, 0, 0, 0.25));
+    border: none;
+    right: 6%;
+    top:11%;
+
+    animation: flying02 2s ease-in-out;
+}
+.decor__img_03{
+    width: 46px;
+    height: 41px;
+
+    background-image: url(../images/header/decor/img3.png);
+    filter: drop-shadow(0px 4px 4px  rgba(0, 0, 0, 0.25));
+    
+    bottom: 46%;
+    left: 36%;
+
+    animation: flying03 2s ease-in-out;
+}
+.decor__img_04{
+    width: 46px;
+    height: 41px;
+
+    background-image: url(../images/header/decor/img4.png);
+    filter: drop-shadow(0px 4px 4px  rgba(0, 0, 0, 0.25));
+    
+    right: 0%;
+    top: 34%;
+
+    animation: flying04 2s ease-in-out;
+}
+.decor__img_05{
+    width: 109px;
+    height: 114px;
+
+    background-image: url(../images/header/decor/img5.png);
+    filter: drop-shadow(0px 4px 4px  rgba(0, 0, 0, 0.25));
+    
+    bottom: -5%;
+    left: 35%;
+
+    animation: flying05 2s ease-in-out;
+}
+.decor__img_06{
+    width: 223px;
+    height: 214px;
+
+    background-image: url(.././images/header/decor/img6.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    right: -5%;
+    bottom: -10%;
+
+    animation: flying06 2s ease-in-out;
+}
+

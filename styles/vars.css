@@ -1,0 +1,36 @@
+:root{
+    /* container */
+    --width:1180px;
+    --padding: 30px;
+    --padding-tablet: 15px;
+
+
+    /* button */
+    --padding-btn: 12px 28px;
+    
+
+    /* --margin-btn: 4px 0; */
+
+    --box-shadow-btn: 0px 4px 20px 0px #FA5A5A;
+    --box-shadow-btn-green: 0px 4px 20px 0px #52E36A;
+  
+
+    --text-color-btn: #fff;
+    --background-color-btn: #F44;
+    --background-color-btn-green:#52E36A;
+
+
+    /* btn tablet */
+    --box-shadow-btn-tablet: 0px 2px 10px 0px #FA5A5A;
+
+    /* BODY */
+    --text-color: #000;
+
+    /* title span*/
+    --text-color-span:#F44;
+
+    /* cocktails */
+    --background-color-cocktails:#fff;
+
+   
+}

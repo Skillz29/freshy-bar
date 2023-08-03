@@ -1,0 +1,79 @@
+.make {
+    border-radius: 24px;
+    background-color: #c9c0bd;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 60px 40px;
+}
+
+.make__title {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.make__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.make__fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+.make__fieldset_ingredients{
+    grid-area: ingredients;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 55px;
+    margin-bottom: 32px;
+}
+
+.make__upsale{
+    font-size: 12px;
+
+}
+
+.make__wrap_add{
+    margin-bottom: 40px;
+    display: flex;
+    gap: 55px;
+}
+
+.make__fieldset_topping{
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.make__fieldset_cup{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.make__legend{
+    margin-bottom: 24px;
+}
+
+.make__footer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.make__add-btn {
+    min-width: 232px;
+}
+
+.make__total-price {
+    font-weight: 600;
+    
+}
+
+.make__total-size {
+    color:rgb(104, 54, 54) ;
+    font-size: 12px;
+    text-align: right;
+}

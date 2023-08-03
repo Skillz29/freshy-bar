@@ -1,0 +1,111 @@
+@import url("./reset.css");
+@import url("./vars.css");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800;900&display=swap');
+@import url('./header.css');
+@import url("./btn.css");
+@import url("./heroSection.css");
+@import url("./goods.css");
+@import url("./cocktails.css");
+@import url("./footer.css");
+@import url("./modal.css");
+@import url("./order.css");
+@import url("./make.css");
+@import url("./checkbox.css");
+@import url("./radio.css");
+@import url("./media.css");
+
+
+
+body{
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 18px;
+    background: #F8E8E2 url(../images/header/bg.svg) no-repeat top/contain;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.container {
+    max-width:calc(var(--width) + (var(--padding) * 2)) ;
+    margin: 0 auto;
+    padding: 0 var(--padding);
+    
+}
+
+.text-red {
+    color: var(--text-color-span);
+}
+
+
+
+
+@keyframes flying01{
+    0% {
+        top:50% ;
+        left:-100% ; 
+    }
+    100%{
+        top:19% ;
+        left:-6% ;       
+    }      
+}
+
+@keyframes flying02{
+    0% {
+        right: -40%;
+        top:-100%  
+    }
+    100%{
+        right: 6%;
+        top:11%    
+    }      
+}
+
+@keyframes flying03{
+    0% {
+        bottom: 0%;
+        left: 56%;
+    }
+    100%{
+        bottom: 46%;
+        left: 36%;
+    }      
+}
+
+@keyframes flying04{
+    0% {
+        right: -50%;
+        top: 54%
+    }
+    100%{
+        right: 0%;
+        top: 34%
+    }      
+}
+
+@keyframes flying05{
+    0% {
+        bottom: -40%;
+        left: 35%;
+    }
+    100%{
+        bottom: -5%;
+        left: 35%;
+    }      
+}
+
+@keyframes flying06{
+    0% {
+        right: -50%;
+        bottom: -10%;
+    }
+    100%{
+        right: -5%;
+        bottom: -10%;
+    }      
+}
+
+

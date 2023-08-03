@@ -1,0 +1,22 @@
+/* goods section */
+
+.goods {
+    padding: 60px 0 70px;
+ }
+ 
+ .goods__title {
+     font-size: 44px;
+     font-weight: 900;
+     margin-bottom: 40px;
+ 
+ 
+ }
+ 
+ .goods__list {
+     display: grid;
+     grid-template-columns: repeat(4, 280px);
+     gap: 20px;
+     
+ }
+ 
+ 
